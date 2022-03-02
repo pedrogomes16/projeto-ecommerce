@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+* {
+    margin:0px;
+    padding:0px;
+}
+
+/*BODY*/
+body {
+    background-color:rgb(192, 155, 228);
+    font-family:'Lucida Sans', cursive, serif;
+}
+
+/*HEADER*/
+header {
+    background-color:rgba(103, 21, 179, 0.602);
+    min-height:150px;
+    text-align:center;
+    padding-top:40px;
+    background-image:linear-gradient(to bottom, rgb(151, 83, 214),
+    rgb(130, 10, 199));
+}
+header h1 {
+    font-family:'Lucida Sans', cursive, serif;
+    font-size:3em;
+    font-weight:normal;
+    margin-bottom:20px;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.270);
+    color:white;
+}
+
+/*NAV*/
+nav {
+    background-color:rgb(75, 3, 156);
+    padding:10px;
+    box-shadow: 0px 7px 7px rgba(0,0,0,0.200);
+}
+nav a {
+    color:rgb(153, 75, 226);
+    padding:10px;
+    border-radius:5px;
+    text-decoration:none;
+    font-weight:bold;
+    transition-duration:.5s;
+}
+nav a:hover {
+    background-color:rgb(144, 34, 207);
+    color:rgb(75, 3, 156);
+}
+
+/*MAIN*/
+main {
+    max-width:1000px;
+    min-width:300px;
+    margin:auto;
+    margin-bottom:30px;
+    padding:20px;
+    background-color:white;
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.493);
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+main h1{
+    background-image:linear-gradient(to right,rgb(153, 75, 226),rgb(75, 3, 156));
+    color:rgb(48, 6, 87);
+    font-family:'Lucida Sans', cursive, serif;
+    font-weight:normal;
+    font-size:1.8em;
+}
+main p {
+    font-size:1.7em;
+    margin: 15px 0px 15px 0px;
+    text-align:justify;
+    text-indent:30px;
+    line-height:2em;
+}
+main h2 {
+    font-family: 'Lucida Sans', cursive, serif;
+    color: rgb(56, 9, 100);
+    font-size:1.3em;
+    font-weight:bolder;
+    margin:20px;
+    background-image: linear-gradient(to right,rgb(153, 75, 226),rgb(101, 26, 187));
+}
+main strong {
+    color:rgb(144, 34, 207);
+    font-weight:bold;
+    padding:2px 6px;
+}
+main a {
+    text-decoration:none;
+    font-weight:bold;
+    color:rgb(191, 135, 255);
+    background-color:rgb(144, 34, 207);
+    padding:2px 6px;
+}
+main a:hover {
+    text-decoration:underline;
+    color:rgb(181, 73, 243);
+}
+main img {
+    width:50%;
+    margin:auto;
+    display:block;
+}
+mark {
+   background-color:rgb(23, 85, 228);
+}
+
+/*ASIDE*/
+aside {
+    background-color:rgb(59, 2, 112);
+    padding:10px;
+    border-radius:10px;
+    box-shadow: 3px 3px 8px rgb(0,0,0,0.280);
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position:inside;
+    columns:2;
+    margin:20px;
+}
+
+/*FOOTER*/
+footer {
+    background-color:rgb(154, 48, 199);
+    color:white;
+    text-align:center;
+    font-size:0.8;
+    padding:5px;
+}
